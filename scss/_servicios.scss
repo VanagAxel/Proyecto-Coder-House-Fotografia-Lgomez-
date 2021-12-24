@@ -1,0 +1,99 @@
+.Servicios-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas:"imguno textuno" "imgdos textdos" "imgtres texttres" "imgcuatro textcuatro" "imgcinco textcinco";            
+    height: 1050px;  
+    text-align: center;                          
+}
+.bodyServicios{
+    background-color: rgb(252, 233, 208);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.gridarea-imgevento{
+    grid-area: imguno;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgevento-grid{
+    margin: auto;
+    height: 100%;
+    width: auto;
+}
+.gridarea-imgalbumes{
+    grid-area: imgdos;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgalbumes-grid{
+    margin: auto;
+    height: 100%;
+    width: auto;
+}
+.gridarea-imgcuadros{
+    grid-area: imgtres;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgcuadros-grid{
+    margin: auto;
+    height: 100%;
+    width: auto;
+}
+.gridarea-imgbanner{
+    grid-area: imgcuatro;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgbanner-grid{
+    margin: auto;
+    height: 100%;
+    width: auto;
+}
+.gridarea-imgsesiones{
+    grid-area: imgcinco;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgsesiones-grid{
+    margin: auto;
+    height: 100%;
+    width: auto;
+}
+.Tittleeventos{
+    grid-area: textuno;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.Tittlealbumess{
+    grid-area: textdos;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.Tittlecuadros{
+    grid-area: texttres;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.Tittlebanners{
+    grid-area: textcuatro;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.Tittlesesiones{
+    grid-area: textcinco;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}

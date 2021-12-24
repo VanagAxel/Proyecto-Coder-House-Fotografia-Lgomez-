@@ -1,0 +1,35 @@
+.bodySobreMi{
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.containerSobreMi{
+    height: 800px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+}
+.imgFotografo{
+    align-items: center;
+    margin-top: 20px;
+    width: 500px;
+    height: 60%;
+}
+div{
+    .textoSobreMi{
+    background:rgba(255,255,255, 0.5);
+    font-family:'Manrope', sans-serif;
+    color:rgb(8, 105, 143); 
+    font-size: 20px;
+    font-weight: lighter;
+    width: 40%;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 20px ;
+    }
+}
